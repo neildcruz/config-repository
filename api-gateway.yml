@@ -36,12 +36,6 @@ ribbon:
 ################# Zuul Routes ##########################
 zuul:
   routes:
-    resource-server:
-      path: /resource/**
-      service-id: spring-oauth2-template-resource-server
-    eureka-server:
-      path: /eurekaserver/**
-      service-id: spring-oauth2-template-eureka-server
     eureka-static:
       path: /eureka/**
       service-id: spring-oauth2-template-eureka-server
