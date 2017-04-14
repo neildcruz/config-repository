@@ -38,5 +38,5 @@ zuul:
   routes:
     eureka-static:
       path: /eureka/**
-      service-id: spring-oauth2-template-eureka-server
+      service-id: eureka-server
       strip-prefix: false
