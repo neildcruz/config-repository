@@ -1,0 +1,7 @@
+auth:
+  server:
+    hostname: localhost
+
+management:
+  security:
+    enabled: false
