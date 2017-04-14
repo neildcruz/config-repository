@@ -40,7 +40,11 @@ zuul:
       path: /eureka/**
       service-id: eureka-server
       strip-prefix: false
-    hystrix-images:
+    hystrix-static:
       path: /hystrix/**
+      service-id: hystrix-dashboard
+      strip-prefix: false
+    hystrix-proxy:
+      path: /proxy.stream**
       service-id: hystrix-dashboard
       strip-prefix: false
