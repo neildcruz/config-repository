@@ -48,3 +48,6 @@ zuul:
       path: /proxy.stream**
       service-id: hystrix-dashboard
       strip-prefix: false
+    ui-application:
+      path: /**
+      service-id: ui-application
